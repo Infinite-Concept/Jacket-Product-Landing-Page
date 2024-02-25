@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body{
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: #E28944;
+    height: 100vh;
+}
+
+.voke{
+    max-width: 1440px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    right: 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.logo h3{
+    font-family: "Athiti", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-transform: capitalize;
+}
+
+nav ul li a span{
+    display: block;
+    transform: rotate(90deg);
+    align-self: flex-end;
+    justify-self: end;
+    font-size: 14px;
+}
+
+.menu img{
+    width: 1.8rem;
+}
+
+.cloth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rectang{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: -30px;
+    background-color: #ED944C;
+    left: 4rem;
+    box-shadow: 0 29px 50px -16px rgba(0, 0, 0, 0.253);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.cloth img{
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    left: 3rem;
+    width: 500px;
+    top: -30px;
+}
+
+.route{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    gap: 20px;
+    font-size: 20px;
+    top: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+.route p:nth-child(1),
+.route p:nth-child(3){
+    font-size: 25px;
+}
+
+.route p:nth-child(2) span{
+    font-size: 16px;
+}
+
+.route img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -50px;
+}
+
+.voxe_content{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 55px;
+}
+
+.voxe_side1{
+    padding-right: 200px;
+}
+
+.voxe_side1 .title{
+    font-family: "Athiti", sans-serif;
+    font-size: 3rem;
+    margin-bottom: -30px;
+}
+
+.voxe_side1 h1{
+    font-size: 100px;
+}
+
+.voxe_side1 h2{
+    font-size: 2.2rem;
+    margin-top: -20px;
+}
+
+.voxe_side1 p{
+    width: 450px;
+    font-size: 1em;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.voxe_buy{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.voxe_buy button{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 7px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.voxe_buy button img{
+    width: 32px;
+}
+
+.voxe_buy .bag{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+.voxe_buy .bag img{
+    width: 30px;
+}
+
+.price{
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.voxe_foot{
+    display: flex;
+    align-items: center ;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    gap: 70px;
+}
+
+.button{
+    border: 5px solid #ffffff;
+    width: 63px;
+    height: 90px;
+    border-radius: 45px;
+    padding: 10px 7px 36px 7px;
+}
+
+.inner_circle{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-image: linear-gradient(#FFFFFF, #d9d9d921);
+}
+
+.voxe_foot > img{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    z-index: 1;
+}
+
+.urban_details{
+    position: relative;
+    z-index: 3;
+    background-color: #ffffff23;
+    width: 100%;
+    backdrop-filter: blur(14px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    padding-top: 25px;
+    padding-left: 60px;
+    border-top-left-radius: 75px;
+}
+
+.side_one h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.side_one p{
+    width: 250px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.here{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.here p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.here button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 8px 32px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.side_two img{
+    width: 150px;
+    position: relative;
+}
+
